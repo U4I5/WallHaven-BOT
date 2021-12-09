@@ -1,1 +1,1 @@
-# WallHaven-BOT
+# WallHaven-Bot
