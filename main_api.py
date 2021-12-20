@@ -23,9 +23,7 @@ def download():
       wallpaper.save(os.path.dirname('/home/dark/Pictures/Wall Data/'))
   
 # For repeat process every 4 hours or time you can set
-
-#schedule.every(1).hour.do(download())
-schedule.every(10).minutes.do(download())
+schedule.every(1).hour.do(download())
 
 while True:
     schedule.run_pending()
