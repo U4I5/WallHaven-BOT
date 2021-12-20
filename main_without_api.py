@@ -21,9 +21,6 @@ wall_tag = soup.findAll('a', href=True)
 for links in wall_tag:
     print(links.get('href'))
 
-
-
-
 #'https://wallhaven.cc/w/
 
 
