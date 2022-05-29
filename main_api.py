@@ -8,7 +8,7 @@ import schedule
 from wallhaven.api import Wallhaven
 
 # set your api here 
-wallhaven = Wallhaven(api_key="bUigG5nroWdX1S2MKRTZDi7Y2diz3Tcr")
+wallhaven = Wallhaven(api_key="bxxxxxxxxxxxxxxxxxxxxxr")
 
 # the fonction to download Wallpaper and all other settings
 def download():
